@@ -1,7 +1,7 @@
-prepare_pace_tair_data <- function() {
+prepare_pace_tir_data <- function() {
     #### Download the data 
     ### Extra IR sensors monitoring a subset of subplot surface temperatures.
-    myDF <- download_pace_tair_data()
+    myDF <- download_pace_tir_data()
     
     #### Assign ring information
     myDF <- myDF[order(myDF$DateTime),]

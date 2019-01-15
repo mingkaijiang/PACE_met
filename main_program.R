@@ -11,9 +11,11 @@ source("prepare.R")
 ### prepare wind speed data
 wdDF <- prepare_pace_wind_data()
 
-### prepare tair data
-tairDF <- prepare_pace_tair_data()
+### prepare IR temperature data
+tirDF <- prepare_pace_tir_data()
 
 ### prepare irrigation data
 irrigDF <- prepare_pace_irrigation_data()
 
+### prepare aboveground par, air temperature, vapor pressure data
+abgDF <- prepare_pace_aboveground_data()
