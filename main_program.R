@@ -8,4 +8,12 @@
 ### prepare required repository
 source("prepare.R")
 
-###
+### prepare wind speed data
+wdDF <- prepare_pace_wind_data()
+
+### prepare tair data
+tairDF <- prepare_pace_tair_data()
+
+### prepare irrigation data
+irrigDF <- prepare_pace_irrigation_data()
+

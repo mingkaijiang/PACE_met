@@ -41,3 +41,8 @@ tokenfile.txt
 # Rproject
 *.Rproj
 *.DS_Store
+
+# files
+*.csv
+*.dat
+
